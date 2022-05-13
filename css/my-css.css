@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgba(247, 244, 231, 0.97);
+   margin: 30px auto;
+   padding: 10PX;
+   font-size:x-large;
+}
+nav img {
+    float: left;
+    width: 70px;
+}
+nav p{
+    float: right;
+ color: blue;
+}
+.kabak{
+    clear: both;
+  
+    font-size:x-large;
+}
+.kd1{
+    float: left;
+    width: 40%; 
+}
+.kd2{
+    float: right;
+    width: 40%;
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.yazi{
+font-size: x-large;
+}
+.sa-1{
+    float: left;
+    width: 48%;
+}
+.ca-1{
+    float: right;
+    width: 48%;
+}
+.temizle{
+    clear: both;
+}
+.col {
+    float: left;
+    width: 48%;
+}
+a:hover{
+ background-color: rgb(206, 171, 252);
+}
+a:visited{
+    color: brown;
+}
+.card{
+    float: right;
+}
+.pcard{
+    font-size: medium;
+}
+.vbn
+{
+    background-color: aquamarine;
+}
+.slide {
+ max-width: 900px;
+ margin: auto;
+}
+.a-f-r{
+    float: right;
+}
+a-f-l{
+    float: left;
+}
+.rsm2{
+    color:aliceblue;
+}
