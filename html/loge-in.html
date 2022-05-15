@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <script src="../j-s/bootstrap.min.js"></script>
+   <script src="../j-s/my-js.js"></script>
+    <link rel="stylesheet" href="../css/my-css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <br><h1>log-in sayfasi</h1><br><br>
+        <form action="../php/MyPhp.php" method="post">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control"  method="post" name="email" required placeholder="ornek: g201000000@sakarya.edu.tr">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" required method="post" name="password" placeholder="ornek: g201000000">
+          </div><br>
+          <button type="submit" class="btn btn-primary">log in</button>
+      <div class="temizle"></div><br><br>
+      <a class="a-f-l" href="Şehrim-sayfa.html"><span class="badge bg-primary">önceki sayfaya dön <br> şehrim-sayfa</span></a>
+      <a class="a-f-r" href="form.html"><span class="badge bg-primary">Sonraki sayfa <br> form-sayfa</span></a>
+      <br><div class="temizle"></div>
+        </form>
+    </div>
+</body>
+</html>

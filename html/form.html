@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <script src="../j-s/bootstrap.min.js"></script>
+   <script src="../j-s/my-js.js"></script>
+    <link rel="stylesheet" href="../css/my-css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <br> <h1>iletişim sayfası</h1><br><br>
+        <div class="container">
+    <form action="../php/myphp2form.php" name= "myForm" onsubmit="return Form1()" method="post">
+        <div class="input-group">
+            <span class="input-group-text">Ad ve Soyad giriniz</span>
+            <input type="text" aria-label="First name"  placeholder="Adınız" class="form-control ad-form" method="post" name="ad" id="ad">
+            <input type="text" aria-label="Last name" placeholder="Soyadınız" class="form-control" method="post" name="soyad" id="soayad">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" aria-describedby="emailHelp" method="post" id="email" name="email">
+          <div id="emailHelp" class="form-text">Biz sizin emailinizi hiç kimse ile paylaşmıyoruz</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" method="post">Password</label>
+          <input type="password" class="form-control"  name="password">
+        </div><br>
+        <h5>kullanıcı durumu:</h5>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" method="post" name="rdio" value="öğrenci ">
+            <label class="form-check-label" for="flexRadioDefault1">
+              öğrenci 
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="rdio" method="post" value=" öğretmen">
+            <label class="form-check-label" for="flexRadioDefault2">
+             öğretmen
+            </label>
+          </div><br>
+        <select class="form-select" aria-label="Default select example" method="post" name="select">
+            <option selected value="0">kullanılan programlama dilleri</option>
+            <option value="html">html</option>
+            <option value="php">php</option>
+            <option value="java script">java script</option>
+          </select><br>
+        <button type="reset" class="btn btn-danger">Sıfırla</button><br>
+        <button type="submit" class="btn btn-primary" value="submit">Gönder</button>
+      </form><br><br>
+    </div>
+      <a class="a-f-l" href="loge-in.html"><span class="badge bg-primary">önceki sayfaya dön <br> loge-in-sayfa</span></a>
+      <a class="a-f-r" href="../index.html"><span class="badge bg-primary">ilk sayfaya dön <br> index-sayfa</span></a>
+      <div class="temizle"></div>
+    </div>
+</body>
+</html>
